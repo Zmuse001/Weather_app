@@ -5,7 +5,7 @@ $(document).ready(function(){
         return far
       }
     var baseURL = "https://api.openweathermap.org/data/2.5/weather"
-    var apiKey = "1932d81919a1136f19238638d4177838"
+    var apiKey = config.MY_KEY
     $("#search").click(function(){
         var location = $("#location").val();
         $.ajax({
